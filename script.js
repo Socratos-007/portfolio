@@ -55,8 +55,6 @@ cards.forEach(card => {
     card.style.transform = 'translateY(0)';
     card.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.05)';
   });
-  // Ensure transitions are smooth
-  card.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
 });
 
 // Typing animation for hero section
